@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About - GadgetZone</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { background: #f5f5f5 !important; min-height: auto; }
+        .about-section {
+            background: #f9f9f9;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        .about-section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        .content {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+        }
+        h1 { color: #333; margin-bottom: 20px; }
+        p { line-height: 1.8; color: #666; }
+    </style>
+</head>
+<body>
+    <ul>
+        <a href="home.html" class="logo"><div class="logo-icon">🛒</div> GadgetZone</a>
+        <div class="nav-right">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <button class="logout-btn" onclick="logout()">Logout</button>
+        </div>
+    </ul>
+
+    <div class="content">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <div class="logo-icon" style="display: inline-flex; width: 80px; height: 80px; font-size: 40px;">🛒</div>
+            <h1 style="margin-top: 15px;">About GadgetZone</h1>
+        </div>
+
+        <div class="about-section">
+            <h2>👥 Who We Are</h2>
+            <p>GadgetZone is India's leading online gadget store, established in 2020. We are passionate about bringing the latest technology to your doorstep. Our team of tech experts carefully curates every product to ensure you get the best quality and value.</p>
+        </div>
+
+        <div class="about-section">
+            <h2>🏢 About Us</h2>
+            <p>We started with a simple vision: to make premium gadgets accessible to everyone. Today, we serve over 50,000+ happy customers across India. Our commitment to quality, affordability, and customer satisfaction has made us a trusted name in the electronics industry.</p>
+        </div>
+
+        <div class="about-section">
+            <h2>🎁 What We Offer</h2>
+            <div class="logo-icon" style="display: inline-flex; margin: 15px 0;">🛒</div>
+            <p>• <strong>Smartphones & Tablets:</strong> Latest models from top brands<br>
+            • <strong>Laptops & Computers:</strong> High-performance devices for work and gaming<br>
+            • <strong>Audio Devices:</strong> Headphones, earbuds, and speakers<br>
+            • <strong>Smart Watches:</strong> Fitness trackers and smartwatches<br>
+            • <strong>Cameras & Drones:</strong> Professional photography equipment<br>
+            • <strong>Accessories:</strong> Keyboards, mice, and more</p>
+        </div>
+
+        <div class="about-section">
+            <h2>🎯 Our Mission</h2>
+            <div class="logo-icon" style="display: inline-flex; margin: 15px 0;">🛒</div>
+            <p>To revolutionize online gadget shopping by providing authentic products, competitive prices, and exceptional customer service. We aim to be your first choice for all technology needs, making innovation accessible to every Indian household.</p>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <button onclick="location.href='shop.html'" class="btn-primary" style="width: auto; padding: 15px 40px;">View Shop</button>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+    <script>checkAuth();</script>
+</body>
+</html>

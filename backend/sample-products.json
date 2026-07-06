@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Samsung Galaxy S24",
+    "category": "Smartphone",
+    "price": 79999,
+    "stock": 15,
+    "offer": 12,
+    "description": "Latest flagship smartphone with AI features",
+    "image": ""
+  },
+  {
+    "name": "Dell XPS 13",
+    "category": "Laptop", 
+    "price": 89999,
+    "stock": 8,
+    "offer": 8,
+    "description": "Ultra-portable laptop with Intel Core i7",
+    "image": ""
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "category": "Audio",
+    "price": 29999,
+    "stock": 20,
+    "offer": 18,
+    "description": "Premium noise-canceling headphones",
+    "image": ""
+  },
+  {
+    "name": "iPad Air 5th Gen",
+    "category": "Tablet",
+    "price": 54999,
+    "stock": 12,
+    "offer": 10,
+    "description": "Powerful tablet with M1 chip",
+    "image": ""
+  },
+  {
+    "name": "Canon EOS R6",
+    "category": "Camera",
+    "price": 199999,
+    "stock": 5,
+    "offer": 15,
+    "description": "Professional mirrorless camera",
+    "image": ""
+  },
+  {
+    "name": "Fitbit Versa 4",
+    "category": "Wearables",
+    "price": 19999,
+    "stock": 25,
+    "offer": 20,
+    "description": "Advanced fitness smartwatch",
+    "image": ""
+  },
+  {
+    "name": "MacBook Pro M3",
+    "category": "Laptop",
+    "price": 199999,
+    "stock": 6,
+    "offer": 5,
+    "description": "Professional laptop with M3 chip",
+    "image": ""
+  },
+  {
+    "name": "iPhone 15 Pro Max",
+    "category": "Smartphone",
+    "price": 159999,
+    "stock": 10,
+    "offer": 8,
+    "description": "Premium iPhone with titanium design",
+    "image": ""
+  }
+]

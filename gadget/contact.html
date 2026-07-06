@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - GadgetZone</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { background: #f5f5f5 !important; min-height: auto; }
+        .content {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+        }
+        h1 { color: #333; margin-bottom: 20px; text-align: center; }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form textarea { height: 120px; resize: none; }
+        .contact-info { margin-top: 30px; text-align: center; color: #666; }
+        .contact-info p { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <ul>
+        <a href="home.html" class="logo"><div class="logo-icon">🛒</div> GadgetZone</a>
+        <div class="nav-right">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <button class="logout-btn" onclick="logout()">Logout</button>
+        </div>
+    </ul>
+
+    <div class="content">
+        <h1>Contact Us</h1>
+        <form class="contact-form" onsubmit="return handleContact(event)">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <h3 style="color: #667eea; margin-bottom: 15px;">📞 Get In Touch</h3>
+            <p><strong>📧 Email:</strong> karthick.t2024aids@sece.ac.in</p>
+            <p><strong>📱 Phone:</strong> +91 6382958604 (Toll Free)</p>
+            <p><strong>💬 WhatsApp:</strong> +91 6382958604</p>
+            <p><strong>📍 Address:</strong> TKT MILL, Verrapandi road, Tirupur - 641605, India</p>
+            <p><strong>🕒 Business Hours:</strong> Mon-Sat: 9:00 AM - 8:00 PM</p>
+            <p style="margin-top: 20px;"><strong>Follow Us:</strong><br>
+            📘 Facebook | 📷 Instagram | 🐦 Twitter | 📺 YouTube</p>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+    <script>
+        checkAuth();
+        function handleContact(e) {
+            e.preventDefault();
+            alert('Thank you for contacting us! We will get back to you soon.');
+            e.target.reset();
+            return false;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+[
+  {
+    "page": "about",
+    "section": "header",
+    "title": "About GadgetZone",
+    "content": "GadgetZone is India's leading online gadget store, established in 2020.",
+    "order": 1
+  },
+  {
+    "page": "about", 
+    "section": "who-we-are",
+    "title": "👥 Who We Are",
+    "content": "GadgetZone is India's leading online gadget store, established in 2020. We are passionate about bringing the latest technology to your doorstep. Our team of tech experts carefully curates every product to ensure you get the best quality and value.",
+    "order": 2
+  },
+  {
+    "page": "about",
+    "section": "about-us", 
+    "title": "🏢 About Us",
+    "content": "We started with a simple vision: to make premium gadgets accessible to everyone. Today, we serve over 50,000+ happy customers across India. Our commitment to quality, affordability, and customer satisfaction has made us a trusted name in the electronics industry.",
+    "order": 3
+  },
+  {
+    "page": "about",
+    "section": "mission",
+    "title": "🎯 Our Mission", 
+    "content": "To revolutionize online gadget shopping by providing authentic products, competitive prices, and exceptional customer service. We aim to be your first choice for all technology needs, making innovation accessible to every Indian household.",
+    "order": 4
+  }
+]

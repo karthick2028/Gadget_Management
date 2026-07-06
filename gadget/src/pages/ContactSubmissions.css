@@ -1,0 +1,43 @@
+.submissions-page {
+  min-height: 100vh;
+  background: #eaeded;
+  padding: 2rem;
+}
+
+.submissions-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.submissions-container h1 {
+  text-align: center;
+  color: #0f1111;
+  margin-bottom: 2rem;
+}
+
+.no-data {
+  text-align: center;
+  color: #555;
+  font-size: 1.2rem;
+}
+
+.submission-card {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #ff9900;
+}
+
+.submission-card p {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.submission-card strong {
+  color: #0f1111;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - GadgetZone</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-logo">🛒</div>
+        <h2>Login to Your Account</h2>
+        <form id="loginForm">
+            <input type="email" id="loginEmail" placeholder="Email Address" required>
+            <span class="error-msg" id="loginEmailError"></span>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <span class="error-msg" id="loginPasswordError"></span>
+            <button type="submit" class="btn-primary">Login</button>
+        </form>
+        <p class="auth-link">Don't have an account? <a href="register.html">Register here</a></p>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>

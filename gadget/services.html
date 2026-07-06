@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services - GadgetZone</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { background: #f5f5f5 !important; min-height: auto; }
+        .content {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+        }
+        h1 { color: #333; margin-bottom: 20px; }
+        .service-item {
+            padding: 15px;
+            margin: 15px 0;
+            background: #f9f9f9;
+            border-left: 4px solid #667eea;
+        }
+        .service-item h3 { color: #667eea; margin-bottom: 10px; }
+        .service-item p { color: #666; }
+    </style>
+</head>
+<body>
+    <ul>
+        <a href="home.html" class="logo"><div class="logo-icon">🛒</div> GadgetZone</a>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </ul>
+
+    <div class="content">
+        <h1>Our Services</h1>
+        
+        <div class="service-item">
+            <h3>🚚 Free Shipping</h3>
+            <p>Enjoy free shipping on all orders above ₹500. Fast delivery within 3-5 business days across India.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>🔄 Easy Returns</h3>
+            <p>30-day hassle-free return policy on all products. No questions asked if you're not satisfied.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>🔒 Secure Payment</h3>
+            <p>100% secure payment gateway with SSL encryption. We accept Credit/Debit Cards, UPI, Net Banking & Wallets.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>💬 24/7 Support</h3>
+            <p>Dedicated customer support team available round the clock via phone, email, and live chat.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>🛡️ Warranty Protection</h3>
+            <p>All products come with manufacturer warranty. Extended warranty options available at checkout.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>💳 EMI Options</h3>
+            <p>Easy EMI options available on orders above ₹5,000. Convert your purchase into affordable monthly payments.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>🎁 Loyalty Rewards</h3>
+            <p>Earn reward points on every purchase. Redeem points for discounts on future orders.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>📱 Mobile App</h3>
+            <p>Download our mobile app for exclusive app-only deals and faster checkout experience.</p>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+    <script>checkAuth();</script>
+</body>
+</html>
