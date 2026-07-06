@@ -1,17 +1,17 @@
-# 🛒 GadgetZone — MERN Stack E-Commerce Application
+# GadgetZone - MERN Stack E-Commerce Application
 
 A full-stack gadget e-commerce web application built with the MERN stack (MongoDB, Express.js, React, Node.js). GadgetZone allows users to browse and purchase gadgets, while admins can manage products, categories, orders, and users through a dedicated dashboard.
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 - **Frontend:** [Deployed on Netlify/Vercel]
 - **Backend API:** https://gadget-backend-vy93.onrender.com
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 gadget wit react/
@@ -38,7 +38,7 @@ gadget wit react/
 
 ---
 
-## ✨ Features
+## Features
 
 ### User Side
 - User registration, login, and password reset
@@ -61,7 +61,7 @@ gadget wit react/
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 ### Backend
 | Technology | Purpose |
@@ -88,7 +88,7 @@ gadget wit react/
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Auth
 | Method | Endpoint | Description |
@@ -126,7 +126,7 @@ gadget wit react/
 
 ---
 
-## 🗄️ Database Models
+## Database Models
 
 ### User
 ```js
@@ -150,7 +150,7 @@ gadget wit react/
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js >= 18
@@ -220,16 +220,16 @@ Frontend runs at: `http://localhost:5173`
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
-### Backend — Render
+### Backend - Render
 1. Push the `backend/` folder to GitHub
 2. Create a new **Web Service** on [Render](https://render.com)
 3. Set build command: `npm install`
 4. Set start command: `node index.js`
 5. Add environment variables: `MONGODB_URI`, `JWT_SECRET`, `PORT`
 
-### Frontend — Netlify
+### Frontend - Netlify
 1. Build the frontend: `npm run build`
 2. Deploy the `dist/` folder to [Netlify](https://netlify.com)
 3. Add `public/_redirects` file with: `/* /index.html 200` (already included)
@@ -237,7 +237,7 @@ Frontend runs at: `http://localhost:5173`
 
 ---
 
-## 📸 Pages Overview
+## Pages Overview
 
 | Page | Route | Description |
 |---|---|---|
@@ -255,16 +255,16 @@ Frontend runs at: `http://localhost:5173`
 
 ---
 
-## 🔐 Authentication Flow
+## Authentication Flow
 
-- Users register/login → receive a JWT stored in `localStorage`
+- Users register/login and receive a JWT stored in `localStorage`
 - Protected routes check for a valid token via `ProtectedRoute` component
 - Admin routes are separately guarded via `AdminProtectedRoute`
 - Admin token is stored separately as `adminToken` in `localStorage`
 
 ---
 
-## 🛒 Cart Functionality
+## Cart Functionality
 
 - Cart state is managed globally via `CartContext`
 - Supports add, remove, update quantity, and clear cart
@@ -273,13 +273,13 @@ Frontend runs at: `http://localhost:5173`
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Karthick T**
 - GitHub: [@karthick2028](https://github.com/karthick2028)
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
